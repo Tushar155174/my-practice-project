@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-area{
+    background-color: rgb(63, 59, 59);
+    display: flex;
+    justify-content: space-around;
+    padding: 12px;
+    text-align: center;
+}
+.logo-area img{
+    width: 100px;
+    padding: 15px;
+}
+.list-area{
+    list-style: none;
+    display: flex;
+}
+.first-list{
+    margin: 15px;
+    color: #ffffff;
+}
+.container-area{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    padding: 10px;
+    align-items: center;
+    background-image: url("./images/background.png"),linear-gradient(45deg, rgb(5,5,5), #2e2e2e);
+    color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.container-area-h1{
+    font-size: 54px;
+    font-weight: bold;
+}
+.container-area-paragraph{
+    font-size: 18px;
+    margin-top: 15px;
+}
+.container-photo-area img{
+    width: 300px;
+}
+
+button{
+    margin-top: 15px;
+    padding: 13px 20px;
+    outline: none;
+    background-color: red;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+}
+.about-area{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin-top: 10px;
+    height: 60vh;
+    align-items: center;
+    
+}
+.useful-h1{
+    font-size: 54px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+.about-area img {
+    width: 300px;
+}
+.about-text-area h1{
+    margin-bottom: 15px;
+}
+.about-p{
+    margin-bottom: 15px;
+}
+.background-service{
+    background-image: url("./images/background.png"),linear-gradient(45deg, rgb(5,5,5), #2e2e2e);
+    height: 85vh;
+}
+.service{
+    margin-bottom: 25px;
+    /* background-image: url("./images/background.png"),linear-gradient(45deg, rgb(5,5,5), #2e2e2e); */
+}
+.service-area {
+    display: flex;
+    justify-content: space-around;
+    /* background-image: url("./images/background.png"),linear-gradient(45deg, rgb(5,5,5), #2e2e2e); */
+}
+.service-box-area{
+    width: 200px;
+    height: 300px;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 15px;
+    color: white;
+    box-shadow: 4px 4px 105px gray;
+    border-radius: 7px;
+    /* background-image: url("images/background.png"),linear-gradient(45deg rgb(5,5,5,) #2e2e2e) */
+}
+
+.service-box-area img{
+    width: 120px;
+}
+.service-button{
+    background-color: rgb(34, 33, 33);
+}
